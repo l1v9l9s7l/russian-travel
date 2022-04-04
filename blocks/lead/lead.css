@@ -1,0 +1,8 @@
+.lead {
+	display:flex ;
+	flex-wrap: wrap;
+	width: 984px;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+}
