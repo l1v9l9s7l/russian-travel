@@ -1,0 +1,32 @@
+.cover__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../../images/__image_station.jpg);
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover__image::after {
+  content: no-open-quote;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+  background-color: #1e2125;
+}
+
+.cover__image:hover::after {
+  opacity: 0.5;
+}
+

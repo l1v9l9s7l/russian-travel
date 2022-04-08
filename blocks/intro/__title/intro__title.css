@@ -3,4 +3,21 @@
 	color: #FFFFFF;
 	margin: 0;
 	padding: 92px 0 0 0;
+	line-height: 58px;
+}
+
+@media screen and (max-width: 1023px) {
+	.intro__title {
+		padding: 88px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.intro__title {
+		font-size: 32px;
+		color: #FFFFFF;
+		margin: 0;
+		padding: 64px 0 0 0;
+		line-height: 35px;
+	}
 }

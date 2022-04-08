@@ -1,4 +1,17 @@
 .intro {
-	width: 690px;
-	margin-left: 148px;
+  width: calc(100% - 2*148px);
+	margin:auto;
+	display: block;
+}
+
+@media  screen and (max-width: 1280px) {
+	.intro {
+		width: calc(100% - 2*48px);
+	}
+}
+
+@media  screen and (max-width: 768px) {
+	.intro {
+		width: calc(100% - 2*24px);
+	}
 }

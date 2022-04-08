@@ -1,7 +1,33 @@
 .header {
 	background-color: 2A2C2F;
-	padding: 28px 48px 56px 48px;
-	width: 1184px;
+	padding: 28px 0px 56px 0px;
+	width: calc(100% - 2*48px);
 	height: 52px;
 	display: flex;
+	margin: auto;
+}
+
+@media screen and (max-width: 1279px) {
+	.header {
+		background-color: 2A2C2F;
+		padding: 28px 0px 48px 0px;
+		width: calc(100% - 2*48px);
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.header {
+		background-color: 2A2C2F;
+		padding: 28px 0px 48px 0px;
+		width: calc(100% - 2*24px);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		background-color: 2A2C2F;
+		padding: 16px 0px 48px 0px;
+		width: calc(100% - 2*16px);
+		height: 42px;
+	}
 }

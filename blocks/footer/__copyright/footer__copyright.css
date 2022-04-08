@@ -1,0 +1,23 @@
+.footer__copyright {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    color: white;
+    display: inline-block;
+    margin: 48px 0 0 0;
+    position: relative;
+    right: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+}
