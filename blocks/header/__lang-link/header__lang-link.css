@@ -5,11 +5,13 @@
 	height: 28px;
 	align-self: center;
 	font-weight: 400;
+	text-decoration: none;
+	transition: opacity 0.2s ease-in-out;
+	margin-left: 18px;
 }
 
-.header__lang-link:nth-last-child(1) {
-	margin-left: 18px;
-	text-decoration: none;
+.header__lang-link:hover {
+	opacity: 0.5;
 }
 
 @media screen and (max-width:767px) {
