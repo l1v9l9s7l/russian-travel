@@ -34,5 +34,6 @@
 	grid-template-rows: repeat(12, 1fr);
 	gap: 12px;
 	padding: 64px 0;
-}
+	width: calc(100% - 2*16px);
+	}
 }

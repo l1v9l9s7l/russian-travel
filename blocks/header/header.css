@@ -23,6 +23,5 @@
 	.header {
 		padding: 16px 0px 48px 0px;
 		width: calc(100% - 2*16px);
-		max-height: 42px;
 	}
 }
