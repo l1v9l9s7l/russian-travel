@@ -7,6 +7,7 @@
   .place__paragraphs {
     grid-area: four;
     width: calc(100% - 2*14px);
+    max-width: 767px;
     margin: auto;
   }
 }

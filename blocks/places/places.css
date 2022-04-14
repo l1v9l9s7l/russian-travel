@@ -2,7 +2,6 @@
 	display: block;
 	width: calc(100% - 2*148px);
 	margin: 0 auto;
-	column-gap: 40px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -10,13 +9,16 @@
 		width: calc(100% - 2*48px);
 		max-width: 928px;
 	}
-	
+}
+
+@media screen and (max-width: 1023px) {
+	.places {
+		width: calc(100% - 2*24px);
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.places {
 		width: 100%;
-		max-width: 928px;
 	}
-	
 }
