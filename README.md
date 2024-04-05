@@ -7,4 +7,4 @@
 
 Ссылка на проект (https://l1v9l9s7l.github.io/russian-travel/)
 
-![](./docks/mesto.png)
+![](./docks/travels-in-russia.png)
